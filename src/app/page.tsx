@@ -110,9 +110,9 @@ export default function Dashboard() {
             <CardHeader>
               <CardTitle>Quick Actions</CardTitle>
             </CardHeader>
-            <CardContent className="grid gap-4">
-              <Link href="/fridge" className='block'>
-                <div className="flex items-center gap-4 p-2 rounded-lg hover:bg-secondary">
+            <CardContent className="grid gap-2">
+              <Link href="/fridge" className='block p-2 rounded-lg hover:bg-secondary'>
+                <div className="flex items-center gap-4">
                   <Refrigerator className="h-6 w-6 text-accent" />
                   <div className="grid gap-1">
                     <p className="text-sm font-medium leading-none">Manage Your Fridge</p>
@@ -120,8 +120,8 @@ export default function Dashboard() {
                   </div>
                 </div>
               </Link>
-              <Link href="/planner" className='block'>
-                <div className="flex items-center gap-4 p-2 rounded-lg hover:bg-secondary">
+              <Link href="/planner" className='block p-2 rounded-lg hover:bg-secondary'>
+                <div className="flex items-center gap-4">
                   <CalendarDays className="h-6 w-6 text-accent" />
                   <div className="grid gap-1">
                     <p className="text-sm font-medium leading-none">Plan Your Meals</p>
@@ -129,8 +129,8 @@ export default function Dashboard() {
                   </div>
                 </div>
               </Link>
-              <Link href="/grocery-list" className='block'>
-                <div className="flex items-center gap-4 p-2 rounded-lg hover:bg-secondary">
+              <Link href="/grocery-list" className='block p-2 rounded-lg hover:bg-secondary'>
+                <div className="flex items-center gap-4">
                   <ShoppingCart className="h-6 w-6 text-accent" />
                   <div className="grid gap-1">
                     <p className="text-sm font-medium leading-none">View Grocery List</p>
