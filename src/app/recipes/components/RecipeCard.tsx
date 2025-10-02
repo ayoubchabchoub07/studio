@@ -17,7 +17,7 @@ import {
 import { Badge } from '@/components/ui/badge';
 import type { Recipe } from '@/lib/types';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Clock, BarChart, BookOpen, Soup } from 'lucide-react';
+import { Clock, BarChart, BookOpen, Soup, ChefHat } from 'lucide-react';
 
 interface RecipeCardProps {
   recipe: Recipe;
