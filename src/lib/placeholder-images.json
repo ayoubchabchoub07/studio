@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "recipe-placeholder-1",
+      "description": "A placeholder image for a delicious-looking recipe.",
+      "imageUrl": "https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zm9vZCUyMHBsYXRlfGVufDB8fHx8MTc1OTM4NzA2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food plate"
+    },
+    {
+      "id": "recipe-placeholder-2",
+      "description": "A second placeholder image for another tasty dish.",
+      "imageUrl": "https://images.unsplash.com/photo-1679744034792-705da160c109?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzYWxhZCUyMGJvd2x8ZW58MHx8fHwxNzU5Mzg2MDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salad bowl"
+    },
+    {
+      "id": "recipe-placeholder-3",
+      "description": "A third placeholder image for a culinary creation.",
+      "imageUrl": "https://images.unsplash.com/photo-1599749011927-9a77278bfa61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYXN0YSUyMGRpc2h8ZW58MHx8fHwxNzU5MzkxNjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pasta dish"
+    },
+    {
+      "id": "recipe-placeholder-4",
+      "description": "A fourth placeholder image for a food item.",
+      "imageUrl": "https://images.unsplash.com/photo-1567769541495-338ee7203e3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoZWFsdGh5JTIwZm9vZHxlbnwwfHx8fDE3NTkzODc4MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy food"
+    },
+    {
+      "id": "dashboard-fridge",
+      "description": "An image representing a well-stocked fridge.",
+      "imageUrl": "https://images.unsplash.com/photo-1721987070934-d06654c35040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvcGVuJTIwZnJpZGdlfGVufDB8fHx8MTc1OTQ0MTk1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "open fridge"
+    },
+    {
+      "id": "dashboard-meal-plan",
+      "description": "An image representing a weekly meal plan.",
+      "imageUrl": "https://images.unsplash.com/photo-1543353071-c953d88f7033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZWFsJTIwcHJlcHxlbnwwfHx8fDE3NTk0NDE5NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "meal prep"
+    },
+    {
+      "id": "user-avatar",
+      "description": "A placeholder for a user's avatar.",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU5Mzk1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    }
+  ]
 }
