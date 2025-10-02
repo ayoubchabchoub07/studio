@@ -7,13 +7,13 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
 } from '@/components/ui/sidebar';
-import { ChefHat, Refrigerator, CalendarDays, AreaChart, ShoppingCart, LayoutDashboard } from 'lucide-react';
+import { Utensils, Refrigerator, CalendarDays, AreaChart, ShoppingCart, LayoutDashboard } from 'lucide-react';
 import type { NavLink } from '@/lib/types';
 import Link from 'next/link';
 
 const navLinks: NavLink[] = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/recipes', label: 'AI Recipes', icon: ChefHat },
+  { href: '/recipes', label: 'AI Recipes', icon: Utensils },
   { href: '/fridge', label: 'My Fridge', icon: Refrigerator },
   { href: '/planner', label: 'Meal Planner', icon: CalendarDays },
   { href: '/nutrition', label: 'Nutrition', icon: AreaChart },
@@ -27,8 +27,8 @@ export function SidebarNav() {
     <Sidebar>
       <SidebarHeader>
         <div className="flex items-center gap-2">
-            <ChefHat className="w-8 h-8 text-primary" />
-            <h2 className="text-xl font-bold font-headline text-primary">KitchenSync AI</h2>
+            <Utensils className="w-8 h-8 text-primary" />
+            <h2 className="text-xl font-bold font-headline">KitchenSync AI</h2>
         </div>
       </SidebarHeader>
       <SidebarMenu>

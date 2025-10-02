@@ -11,7 +11,7 @@ import { Button } from '@/components/ui/button';
 import Header from '@/components/layout/Header';
 import { sampleRecipes, mockMealPlan, initialFridgeItems } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { ArrowUpRight, ChefHat, Refrigerator, CalendarDays, UtensilsCrossed, ShoppingCart } from 'lucide-react';
+import { ArrowUpRight, Utensils, Refrigerator, CalendarDays, UtensilsCrossed, ShoppingCart } from 'lucide-react';
 
 export default function Dashboard() {
   const recipeImage = PlaceHolderImages.find(p => p.id === 'recipe-placeholder-1');
@@ -54,7 +54,7 @@ export default function Dashboard() {
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-sm font-medium">Recipe Ideas</CardTitle>
-              <ChefHat className="h-4 w-4 text-muted-foreground" />
+              <Utensils className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold font-headline">AI-Powered</div>
@@ -113,7 +113,7 @@ export default function Dashboard() {
             <CardContent className="grid gap-2">
               <Link href="/fridge" className='block p-2 rounded-lg hover:bg-secondary'>
                 <div className="flex items-center gap-4">
-                  <Refrigerator className="h-6 w-6 text-accent" />
+                  <Refrigerator className="h-6 w-6 text-primary" />
                   <div className="grid gap-1">
                     <p className="text-sm font-medium leading-none">Manage Your Fridge</p>
                     <p className="text-sm text-muted-foreground">Add or remove ingredients.</p>
@@ -122,7 +122,7 @@ export default function Dashboard() {
               </Link>
               <Link href="/planner" className='block p-2 rounded-lg hover:bg-secondary'>
                 <div className="flex items-center gap-4">
-                  <CalendarDays className="h-6 w-6 text-accent" />
+                  <CalendarDays className="h-6 w-6 text-primary" />
                   <div className="grid gap-1">
                     <p className="text-sm font-medium leading-none">Plan Your Meals</p>
                     <p className="text-sm text-muted-foreground">Create your weekly meal plan.</p>
@@ -131,7 +131,7 @@ export default function Dashboard() {
               </Link>
               <Link href="/grocery-list" className='block p-2 rounded-lg hover:bg-secondary'>
                 <div className="flex items-center gap-4">
-                  <ShoppingCart className="h-6 w-6 text-accent" />
+                  <ShoppingCart className="h-6 w-6 text-primary" />
                   <div className="grid gap-1">
                     <p className="text-sm font-medium leading-none">View Grocery List</p>
                     <p className="text-sm text-muted-foreground">Check your shopping needs.</p>

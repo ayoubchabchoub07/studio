@@ -17,7 +17,7 @@ import {
 import { Badge } from '@/components/ui/badge';
 import type { Recipe } from '@/lib/types';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Clock, BarChart, BookOpen, Soup, ChefHat } from 'lucide-react';
+import { Clock, BarChart, BookOpen, Soup, Utensils } from 'lucide-react';
 
 interface RecipeCardProps {
   recipe: Recipe;
@@ -77,7 +77,7 @@ const RecipeCard: FC<RecipeCardProps> = ({ recipe, index }) => {
           <AccordionItem value="instructions">
             <AccordionTrigger className="text-base font-bold">
                <div className="flex items-center gap-2">
-                <ChefHat className="h-5 w-5" /> Instructions
+                <Utensils className="h-5 w-5" /> Instructions
               </div>
             </AccordionTrigger>
             <AccordionContent>
